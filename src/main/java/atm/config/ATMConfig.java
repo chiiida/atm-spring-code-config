@@ -22,5 +22,7 @@ public class ATMConfig {
     }
 
     @Bean
-    public AtmUI atmUI() { return new AtmUI(atm()); }
+    public AtmUI atmUI() {
+        return new AtmUI(atm());
+    }
 }
